@@ -70,6 +70,10 @@ flex-direction: column;
     margin-right: 20px;
     border: none;                                               /* total four inputs*/
 }
+inputs:active {
+    border: 2px solid #3498db;
+    background-color: #f0f0f0;
+}
 .inputs::placeholder{
     color: white;
     padding: 10px;
