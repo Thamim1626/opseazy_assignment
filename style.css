@@ -1,0 +1,151 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.form_main{
+    background-image: url("images/blue-color-concrete-wall-texture-surface-with-vignette-effect.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.left_section{ 
+   
+}
+
+
+.form_image{ 
+    width: 95%;
+    height: 100vh; 
+    border-top-right-radius:50% ;
+    border-bottom-right-radius:50% ; 
+    border-right: 8px solid blueviolet;
+}
+
+.right_section{
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+
+.form_heading{
+    color: white;
+    max-width: 460px;
+    font-size: 38px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: 18px; 
+}
+
+.input_container{
+
+display: flex;
+flex-direction: column; 
+}
+.input_set{
+    display:flex;
+    
+}
+.inputs{
+    width: 280px;
+    height: 42px;
+    background-color: rgba(255, 255, 255, .3);
+    margin-right: 20px;
+    border: none;
+}
+.inputs::placeholder{
+    color: white;
+    padding: 10px;
+}
+
+.service_main{
+    max-width: 580px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, .3);
+    border: none;
+    color: white;
+}
+.service_option{
+
+}
+.textarea{
+    max-width: 580px;
+    background-color: rgba(255, 255, 255, .3);
+}
+.textarea::placeholder{
+    color: white;
+    padding: 10px;
+
+}
+.messeage_button{
+   width: 260px;
+   height: 52px;
+   background-color: white;
+   color: black;
+   padding: 16px;
+   border-radius: 5px; 
+   display: flex;
+   justify-content: space-between;
+}
+.button_text{
+    font-size: 32px;
+}
+
+.messeage_text{
+
+}
+.send_icon{
+    align-self: center;
+    font-size: 24px;
+    color: blueviolet;
+}
+
+@media (max-width:768px) {
+    .right_section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .inputs{
+        max-width: 260px;
+        height: 38px;
+        
+    }
+    .service_main{
+        max-width: 540px;
+        height: 40px;
+        background-color: rgba(255, 255, 255, .3);
+        border: none;
+        color: white;
+    }
+    .textarea{
+        max-width: 540px;
+        background-color: rgba(255, 255, 255, .3);
+    }
+    .messeage_button{
+        align-self: center;
+    }
+    
+}
+
+@media (max-width:576px) {
+    
+    .inputs{
+        max-width: 200px;
+        height: 38px;
+        
+    }
+    .service_main{
+        max-width: 420px;
+        height: 40px;
+        background-color: rgba(255, 255, 255, .3);
+        border: none;
+        color: white;
+    }
+    .textarea{
+        max-width: 420px;
+        background-color: rgba(255, 255, 255, .3);
+    }
+}
